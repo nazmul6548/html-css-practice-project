@@ -142,5 +142,33 @@ img{
   margin-top: 110px;
 }
 .banner1-text p{
-    color: rgb(214, 210, 210);
+    color: rgb(214, 210, 21);
+}
+.banner1-img img{
+    height: 190px;
+    width: 200px;
+    margin-top: 80px;
+}
+.banner2{
+    height: 350px;
+    width: 900px;
+    background-image: url(./img/Rectangle\ 9.png);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 310px
+}
+.banner2-img img{
+    height: 190px;
+    width: 200px;
+    margin-top: 80px;
+}
+.banner2-text{
+    margin-top: 120px;
+}
+.banner2-text h2{
+   font-size: 50px;
+}
+.banner2-text p{
+    font-weight: bold;
 }
