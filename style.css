@@ -43,12 +43,14 @@ p{
     color: black;
     background-color: rgb(190, 214, 214);
     transition: 0.5s;
+    border: 1px solid black;
 
 
 }
 .btn:hover{
     background-color: #000;
     color: white;
+    border: 1px solid black;
 }
 
 .services-imgs {
@@ -117,11 +119,23 @@ img{
     align-items: center;
     padding-top: 50px;
 }
+
+.instragram-wrapper{
+    margin-top: 15px;
+}
 .instragram-text h2{
     text-align: center;
     font-size: 60px;
     font-weight: bold;
     margin-top: 50px;
+    border: 3px solid red;
+    border-radius: 10px;
+    display:inline;
+    margin-left: 600px;
+}
+.instragram-text h2:hover{
+    border: 3px solid black;
+    border-radius: 10px;
 }
 .instragram-text p{
     text-align: center;
