@@ -1,221 +1,209 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.hero-section{
-    background-color:rgb(255, 236, 239);
-
-   
-
+.hero-section {
+  background-color: rgb(255, 236, 239);
 }
-.hero-wraper{
-    display: flex;
-    justify-content: space-around;
-    height: 85vh;
-
+.hero-wraper {
+  display: flex;
+  justify-content: space-around;
+  height: 85vh;
 }
-.text{
-       margin-right: 10px;    
-       margin-top: 100px;
+.text {
+  margin-right: 10px;
+  margin-top: 100px;
 }
-.hero-img{
-       height: 550px;
-       margin-left: 200px;
-       margin-top: 100px;
-
+.hero-img {
+  height: 550px;
+  margin-left: 200px;
+  margin-top: 100px;
 }
 
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    display: block;
-    margin-top:80px ;
-
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  display: block;
+  margin-top: 80px;
 }
-p{
-    margin-top: 20px;
+p {
+  margin-top: 20px;
 }
-.btn{
-    margin-top: 30px;
-    padding: 10px;
-    width: 100px;
-    border-radius: 16px;
-    color: black;
-    background-color: rgb(190, 214, 214);
-    transition: 0.5s;
-    border: 1px solid black;
-
-
+.btn {
+  margin-top: 30px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 16px;
+  color: black;
+  background-color: rgb(190, 214, 214);
+  transition: 0.5s;
+  border: 1px solid black;
 }
-.btn:hover{
-    background-color: #000;
-    color: white;
-    border: 1px solid black;
+.btn:hover {
+  background-color: #000;
+  color: white;
+  border: 1px solid black;
 }
 
 .services-imgs {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.title-text {
+  text-align: center;
+  font-size: large;
+  text-align: center;
+}
+.title-text h1 {
+  border: 3px solid black;
+  display: inline-block;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+.title-text h1:hover {
+  border: 3px solid red;
+  background-color: #090909;
+  color: white;
+}
+.img-1 {
+  height: 383px;
+  width: 270px;
 
-    
-
-}
-.title-text {text-align: center;
-    font-size: large;
-    text-align: center;
-}
-.title-text h1{
-    border: 3px solid black;
-    display: inline-block;
-    border-radius: 12px;
-    transition: 0.5s;
-}
-.title-text h1:hover{
-    border: 3px solid red;
-    background-color: #090909;
-    color: white;
-}
-.img-1{
-    height: 383px;
-    width: 270px;
-    background-color: purple;
-    border-radius: 210px 210px 0 0;
-    transition: 0.5s;
-    
+  background-image: linear-gradient(to bottom right, #ff3e9d, #0e1f40);
+  border-radius: 210px 210px 0 0;
+  transition: 0.5s;
 }
 .img-1:hover {
-    background-color: rgb(38, 1, 38);
+  background-image: linear-gradient(to bottom right, #ffdb01, #0e197d);
 }
-.img-2{
-    height: 383px;
-    width: 270px;
-    background-color: aqua;
-    border-radius: 210px 210px 0 0;
-    transition: 0.5s;
+.img-2 {
+  height: 383px;
+  width: 270px;
+  background-image: linear-gradient(to bottom right, #305170, #6dfc6b);
+  border-radius: 210px 210px 0 0;
+  transition: 0.5s;
 }
 .img-2:hover {
-    background-color: rgb(12, 156, 178);
+  background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
 }
-.img-3{
-    height: 383px;
-    width: 270px;
-    background-color: #000;
-    border-radius: 210px 210px 0 0;
-    transition: 0.5s;
+.img-3 {
+  height: 383px;
+  width: 270px;
+  background-image: linear-gradient(to bottom right, #00c0ff, #4218b8);
+  border-radius: 210px 210px 0 0;
+  transition: 0.5s;
 }
 .img-3:hover {
-    background-color: rgb(51, 53, 53);
+  background-image: linear-gradient(to bottom right, #38a2d7, #561139);
 }
-img{
-    height: 344px;
-    width: 284px;
+img {
+  height: 344px;
+  width: 284px;
 }
 .services-text {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
-.services-text a{
-    color: #000;
-    font-weight: bold;
-    padding-top: 20px;
+.services-text a {
+  color: #000;
+  font-weight: bold;
+  padding-top: 20px;
 }
-.sale{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(245, 245, 220);
-    margin-top: 20px;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.instragram-text h2{
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    margin-top: 50px;
+.sale {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(245, 245, 220);
+  margin-top: 20px;
+  align-items: center;
+  padding-top: 50px;
 }
 
-.instragram-text p{
-    text-align: center;
-    font-size:large;
+.instragram-text h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
 }
-.banner1{
-    height: 350px;
-    width: 900px;
-    background-color: rgb(92, 83, 83);
-    margin-left: 310px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
+
+.instragram-text p {
+  text-align: center;
+  font-size: large;
 }
-.banner1-text h2{
+.banner1 {
+  height: 350px;
+  width: 900px;
+  background-color: rgb(92, 83, 83);
+  margin-left: 310px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.banner1-text h2 {
   font-weight: bold;
   font-size: 60px;
   margin-top: 110px;
 }
-.banner1-text p{
-    color: rgb(214, 210, 21);
+.banner1-text p {
+  color: rgb(214, 210, 21);
 }
-.banner1-img img{
-    height: 190px;
-    width: 200px;
-    margin-top: 80px;
+.banner1-img img {
+  height: 190px;
+  width: 200px;
+  margin-top: 80px;
 }
-.banner2{
-    height: 350px;
-    width: 900px;
-    background-image: url(./img/Rectangle\ 9.png);
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 310px
+.banner2 {
+  height: 350px;
+  width: 900px;
+  background-image: url(./img/Rectangle\ 9.png);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 310px;
 }
-.banner2-img img{
-    height: 190px;
-    width: 200px;
-    margin-top: 80px;
+.banner2-img img {
+  height: 190px;
+  width: 200px;
+  margin-top: 80px;
 }
-.banner2-text{
-    margin-top: 120px;
+.banner2-text {
+  margin-top: 120px;
 }
-.banner2-text h2{
-   font-size: 50px;
+.banner2-text h2 {
+  font-size: 50px;
 }
-.banner2-text p{
-    font-weight: bold;
+.banner2-text p {
+  font-weight: bold;
 }
-.email{
-    margin-top: 25px;
-    height: 25px;
-    width: 200px;
-    border: 2px solid rgb(218, 32, 187);
-    text-align: center;
-    border-radius: 6px;
-    transition: 0.5s;
+.email {
+  margin-top: 25px;
+  height: 25px;
+  width: 200px;
+  border: 2px solid rgb(218, 32, 187);
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.5s;
 }
 
-.email:hover{
-    border: 2px solid red;
-    color: whitesmoke;
-    background-color: #000;
-    
-    border-radius: 6px;
+.email:hover {
+  border: 2px solid red;
+  color: whitesmoke;
+  background-color: #000;
+
+  border-radius: 6px;
 }
-.submit{
-    margin-top: 25px;
-    height: 25px;
-    width: 100px;
-    border: 2px solid rgb(218, 32, 187);
-    text-align: center;
-    border-radius: 6px;
-    transition: 0.5s;
+.submit {
+  margin-top: 25px;
+  height: 25px;
+  width: 100px;
+  border: 2px solid rgb(218, 32, 187);
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.5s;
 }
-.submit:hover{
-    border: 2px solid red;
-    background-color: #000;
-    color: aliceblue;
-    border-radius: 6px;
+.submit:hover {
+  border: 2px solid red;
+  background-color: #000;
+  color: aliceblue;
+  border-radius: 6px;
 }
